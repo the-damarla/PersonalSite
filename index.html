@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+
+<head>    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f84cbf777e.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS  -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a320dfbe7e.js" crossorigin="anonymous"></script>
+    <title>THE DAMARLA</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header-logo">
+        <img id="top-img" class="header-logo" src="./images/mylogo.png" alt="LOGO">
+    </div>
+
+    <header style="height: fit-content;" class="text-gray-600 body-font navbar">
+        <div style="height:fit-content;padding: 13px;" class="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
+
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#home" class="mr-5 hover:text-gray-900 links">Home</a>
+                <a href="#skills" class="mr-5 hover:text-gray-900 links">Skills</a>
+                <a href="#projects" class="mr-5 hover:text-gray-900 links">Projects</a>
+                <a href="#contact" class="mr-5 hover:text-gray-900 links">Contact</a>
+            </nav>
+            <button onclick="window.location.href = 'https://drive.google.com/file/d/14RWm2JlDDDIMaz58wkvKsCo0JT-9dgys/view?usp=sharing';" style="margin-right: 5px;" id="buttonport" class="inline-flex items-center bg-gray-100 border-0 py-1 px-1 focus:outline-none hover:bg-gray-200 rounded text-base mt-1 md:mt-0">Resume
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div id="home">
+        <div class="flex-center">
+            <div class="home">
+                <button class="home-btn home-btn1" onclick="plusDivs(-1)">&#10094;</button>
+                <img style="cursor:auto;" class="mySlides" src="./images/mypic.JPG" alt="">
+                <img class="mySlides" src="./images/Slide1.JPG" onclick="window.location.href = 'https://drive.google.com/file/d/14PJjOCY81ux020CaTVTShQqNU0YI-yDP/view?usp=sharing'">
+                <img class="mySlides" src="./images/Slide2.JPG" onclick="window.location.href = 'https://drive.google.com/file/d/1b-0VZEKP2vCuJQZApX82tx24D5QAYISD/view?usp=sharing'">
+                <img class="mySlides" src="./images/Slide3.JPG" onclick="window.location.href = 'https://drive.google.com/file/d/1b-0VZEKP2vCuJQZApX82tx24D5QAYISD/view?usp=sharing'">
+                <img class="mySlides" src="./images/Slide4.JPG" onclick="window.location.href = 'https://drive.google.com/file/d/18WtNivnd2xtMIcGsuRBPPYD2TXf_8xB7/view?usp=sharing'">
+                <img class="mySlides" src="./images/Slide5.JPG" onclick="window.location.href = 'https://drive.google.com/file/d/18WtNivnd2xtMIcGsuRBPPYD2TXf_8xB7/view?usp=sharing'">
+                <img class="mySlides" src="./images/Slide6.PNG">
+                <img class="mySlides" src="./images/Slide7.PNG">
+                <button class="home-btn home-btn2" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+        </div>
+        <div class="home-btnx">
+            <button class="home-btny" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="home-btny" onclick="plusDivs(+1)">&#10095;</button>
+            
+        </div>
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-7 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src="./images/aboutme.jpg">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <p class="mb-8 leading-relaxed home-para" style="color: rgb(170, 170, 170);font-size: larger;">I'm
+                        an Under Graduate from SRM University AP, Aspiring to have a great professional career as a Software Developer. </p>
+                    <p class="mb-8 leading-relaxed home-para" style="color: white;"> I enjoy taking complex problems and
+                        turning them into simple and creative interface designs. I also love the logic and structure of
+                        coding and strive to make creative solutions. Always on the lookout for new
+                        projects to work on. <br class="hidden lg:inline-block" style="color: white;"> <br
+                            class="hidden lg:inline-block" style="color: white;"> “I like arts and crafts. I like reviewing what I have 
+                            learned and seen, and Like to have hands on experience on what I'm learning.” “I'm an outgoing person, and
+                        like socializing/hanging out with friends.” “I enjoy being physically active, and spend a lot of
+                        time playing sports and team games.”
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <p class="mb-8 leading-relaxed home-para" style="color: white;">Coding, sometimes called computer programming, is how we communicate with computers. Code tells a computer what actions to take, and writing code is like creating a set of instructions. I can code (or) Program equally in three different languages "C", "Cpp" & "Python", I am also a Silver Badge Coder at Hacker Rank with points of 650, also solved nearly 72 problems in leet Code and trying very hard to maintain and increase my skillset. I'm also familiar with the frameworks of python namely "PyQt5","Pandas","Pytorch" ,etc, and testing frameworks "UnitTesting using Python", "Lybra & Jeera Software Testing".
+
+                    </p>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class="object-cover object-center rounded" alt="hero" src="./images/urbanplanning.jpg">
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-7 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src="./images/profile.jpg">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <p class="mb-8 leading-relaxed home-para" style="color: white;">
+                        In the course of pursuing Computer Science Engineering, I’ve strived to understand the technical terminologies of the current trends happenig around the world and leaned man standard methods to deal with the computer's OS & general troubleshooting problems. I find it amusing and challenging, how the small changes we make in our approach to solving a problem, can drastically change the life of the people living in that niche. Thus, I believe that the future of problem solving manner will be automated with the evolving technology which in-turn requires human intellingence at this initial stage.
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <!-- <div class="container px-5 py-10 mx-auto"> -->
+            <div class="flex flex-col">
+                <h1 style="color: rgb(255, 255, 255);text-align: center;margin: 20px; font-size: xx-large;">EDUCATIONAL QUALIFICATION</h1>
+            </div>
+            <div style="display: flex;justify-content: center;align-items: center;"
+                class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;"
+                    class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div style="display: flex;justify-content: center;align-items: center;"
+                        class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full" src="./images/edu3.png">
+                    </div>
+                    <p style="color: white;text-align: center;font-size: larger;"
+                        class="text-base leading-relaxed mt-2">Bachelor of Technologies <br /> (B.Tech) <br /> Year
+                        <br />2018 - 2022 <br /> GPA <br /> 9.01
+                    </p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;"
+                    class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div style="display: flex;justify-content: center;align-items: center;"
+                        class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full" src="./images/edu2.png">
+                    </div>
+                    <p style="color: white;text-align: center;font-size: larger;"
+                        class="text-base leading-relaxed mt-2">CLASS XII <br /> (Intermediate) <br /> Year <br />2014 -
+                        2016 <br /> Percentage <br /> 95.4% </p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;"
+                    class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                    <div style="display: flex;justify-content: center;align-items: center;"
+                        class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full" src="./images/edu1.png">
+                    </div>
+                    <p style="color: white;text-align: center;font-size: larger;"
+                        class="text-base leading-relaxed mt-2">CLASS X <br /> (Schooling) <br /> Year <br />2015 - 2016
+                        <br /> GPA <br /> 9.5
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">WORK EXPERIENCE</h1>
+                </div>
+                <div style="color: white;" class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div style="display: flex;justify-content: center;align-items: center;" class="img-workex">
+                                <img class="lg:h-48 w-full object-cover object-center" src="./images/UBs.png" alt="blog">
+                            </div>
+                            <div class="p-6">
+                                <h1 style="color: white;font-size: 25px;text-align: center;"
+                                    class="title-font text-lg font-large text-gray-900 mb-3">ADA(Aeronautical Development Agency)
+                                    </h1>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">Bangalore,
+                                    Karnataka
+                                </p>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">INTERNSHIP
+                                    <br /> Jan - Mar (2021)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/Sus.png"
+                                alt="blog">
+                            <div class="p-6">
+
+                                <h1 style="color: white;font-size:x-large;text-align: center;"
+                                    class="title-font text-lg font-large text-gray-900 mb-3">APSSDC(Andhra Pradesh State Skill Development Corporation)</h1>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">Vijayawada, A P</p>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">INTERNSHIP
+                                    <br /> Jun - Aug (2020)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/SA.jpg"
+                                alt="blog">
+                            <div class="p-6">
+
+                                <h1 style="color: white;font-size: x-large;text-align: center;"
+                                    class="title-font text-lg font-large text-gray-900 mb-3"> Text Summarization <br />
+                                    Review Wrok,UROP(UnderGraduate Research Opportunity Program)</h1>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">SRM,
+                                    A.P
+                                </p>
+                                <p style="text-align: center; font-size: large;" class="leading-relaxed mb-3">Research Work
+                                    <br /> 4 Months (2021)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px; font-size: xx-large;">AREAS OF INTEREST</h1>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-0 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/infra.png"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 style="font-size: x-large;text-align: center;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Data Science</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-0 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/env.png"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 style="font-size: x-large;text-align: center;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Cloud Computing</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-0 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./images/ud.png"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 style="font-size: x-large;text-align: center;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">UI/UX
+                                    <br />
+                                    DESIGN
+                                </h2>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">L A N G U A G E S</h1>
+                </div>
+
+                <div style="color: white;display: flex;justify-content: center;align-items: center;"
+                    class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+
+                            <div class="w-full">
+                                <h3 style="font-size: xx-large;text-align: center; color: white;"
+                                    class="text-gray-500 mb-3">E N G L I S H</h3>
+                                <p class="mb-4">Understand <br /> Speak <br /> Read <br /> Write</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+
+                            <div class="w-full">
+                                <h3 style="font-size: xx-large;text-align: center; color: white;"
+                                    class="text-gray-500 mb-3">T E L U G U</h3>
+                                <p class="mb-4">Understand <br /> Speak <br /> Read <br /> Write</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+
+                            <div class="w-full">
+                                <h3 style="font-size: xx-large;text-align: center; color: white;"
+                                    class="text-gray-500 mb-3">H I N D I</h3>
+                                <p class="mb-4">Understand <br /> Speak <br /> Read <br /> Write</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/4 md:w-1/2">
+                        <div class="h-full flex flex-col items-center text-center">
+
+                            <div class="w-full">
+                                <h3 style="font-size: xx-large;text-align: center; color: white;"
+                                    class="text-gray-500 mb-3">T A M I L</h3>
+                                <p class="mb-4">Understand </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <hr style="margin-top: 40px;">
+    <div style="margin-top: 25px;" id="skills">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-18 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">S O F T W A R E<br /> S K I L L S</h1>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/ArcGIS.jpg">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">CPP</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/qgis.jpg">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">Python</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/AutoCAD.jpg">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">C</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/sketchup.jpg">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">Java</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/revit.jpg">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">UBUNTU(OS)</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/photoshop.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">CodeBlocks</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/illustrator.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">NetBeans</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/googleearth.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">PyCharm/Jupyter</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/Powerpoint.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">Power Point</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/word.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">MS Word</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/excel.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">MS Excel</h3>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                        <a class="block relative h-48 rounded overflow-hidden">
+                            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+                                src="./images/inkscape.png">
+                        </a>
+                        <div class="mt-4">
+                            <h3 style="color: white;text-align: center;font-size: x-large;"
+                                class="text-gray-500 text-xs tracking-widest title-font mb-1">GIT</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">G E N E R A L <br /> S K I L L S</h1>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6"
+                                src="./images/communication.png" alt="content">
+                            <h3 style="text-align: center;color: white;font-size: large;"
+                                class="tracking-widest text-indigo-500 text-xs font-medium title-font">COMMUNICATION
+                                SKILL</h3>
+
+                        </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6"
+                                src="./images/Teamwork-removebg-preview.png" alt="content">
+                            <h3 style="text-align: center;color: white;font-size: large;"
+                                class="tracking-widest text-indigo-500 text-xs font-medium title-font">TEAM <BR /> WORK
+                            </h3>
+
+                        </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6"
+                                src="./images/Problem_Solving.png" alt="content">
+                            <h3 style="text-align: center;color: white;font-size: large;"
+                                class="tracking-widest text-indigo-500 text-xs font-medium title-font">PROBLEM <br/> SOLVING
+                            </h3>
+
+                        </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6"
+                                src="./images/Hour_Glass.png" alt="content">
+                            <h3 style="text-align: center;color: white;font-size: large;"
+                                class="tracking-widest text-indigo-500 text-xs font-medium title-font">WORK UNDER
+                                PRESSURE</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">C E R T I F I C A T I O N S</h1>
+                </div>
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: x-large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Essential Google Cloud Infrastructure: Core Services</h2>
+                                <br />
+                                <div class="flex items-center flex-wrap ">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/1XOxBX2_kpM5x7hH4GcXdssptjdG7TBLY/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: x-large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Reliable Google Cloud Infrastructure: Design and Process</h2>
+
+                                <div class="flex items-center flex-wrap">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/1yWqTuYPzW8SMMiHCFuhyDa60yLqo3Z90/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: x-large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">HTML, CSS, and Javascript for Web Developers
+                                </h2>
+
+                                <div class="flex items-center flex-wrap ">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/1CF_4mBnx6TWvio4ViITWQSulLKBbSja1/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-4 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">"Big data and
+Hadoop With SRM University AP, Amaravati"</h2>
+
+                                <div class="flex items-center flex-wrap ">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/17NCyA3MDAzVjnAtIGguv8XBYBAJQE-CM/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Elastic Google Cloud Infrastructure: Scaling and Automation</h2>
+                                <br /><br />
+                                <div class="flex items-center flex-wrap">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/15SIvMo3Hc5KRTg0diGVI-XJ_xZ3ARhh8/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Google Cloud Platform Fundamentals: Core Infrastructure</h2>
+
+                                <div class="flex items-center flex-wrap ">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/1ybo2LyBRzVkNXukTjlo8MbtRM2z_QDA_/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/4">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+
+                            <div class="p-6">
+                                <h2 style="color: white;font-size: large;"
+                                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Private
+                                    Essential Google Cloud Infrastructure: Foundation</h2>
+
+                                <div class="flex items-center flex-wrap ">
+                                    <a target="__blank"
+                                        href="https://drive.google.com/file/d/1iFyeflEwyE1yjZxoqY0XPiwARlatVQWv/view?usp=sharing"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                                        style="cursor: pointer;text-decoration: none;">View Certificate
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <hr style="margin-top: 40px;">
+    <div style="margin-top: 10px;" id="projects">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-14 mx-auto">
+                <div class="flex flex-col">
+                    <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">P R O J E C T S</h1>
+                </div>
+                <div style="color: white;" class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                    <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-1000 text-indigo-500 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" viewBox="">
+                            <img alt="team" class="rounded-full" src="./images/slideicon (3).png">
+                        </svg>
+                    </div>
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2" style="color: white; font-size: x-large;">Node Editor using PyQt5</h2>
+                        <p class="leading-relaxed text-base">This is a GUI based application which helps people to create notes of a
+program through graphically designed nodes, which inturn makes it easy to
+understand the flow of the program. This includes features like PDF exporter
+of the created file which makes the work portable to share.</p>
+                        <a target="__blank" href="https://drive.google.com/file/d/1VWomACsD3ir1dro8TjqrPgCEAmewfrE1/view?usp=sharing" class="mt-3 text-indigo-500 inline-flex items-center">Visit Project
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div style="color: white;" class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2" style="color: white; font-size: x-large;">Online Attendance System - Java(includes database).</h2>
+                        <p class="leading-relaxed text-base">This system can be used to manage the attendance of the students according to the
+registered class wise schedule. This includes features like showing a photo of the
+respective student while taking attendance, QR code of the ID check, these are
+included to reduce the proxy attendance.</p>
+                        <a target="__blank" href="https://drive.google.com/file/d/1b-0VZEKP2vCuJQZApX82tx24D5QAYISD/view?usp=sharing" class="mt-3 text-indigo-500 inline-flex items-center">Visit Project
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-1000 text-indigo-500 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" viewBox="">
+                            <img alt="team" class="rounded-full" src="./images/slideicon (4).png">
+                        </svg>
+                    </div>
+                </div>
+                <div style="color: white;" class="flex items-center border-b pb-10 mb-10 lg:w-3/5 mx-auto border-gray-200 sm:flex-row flex-col">
+                    <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-1000 text-indigo-500 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" viewBox="">
+                            <img alt="team" class="rounded-full" src="./images/slideicon (5).png">
+                        </svg>
+                    </div>
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2" style="color: white; font-size: x-large;">Text Summarization Through Reinforcement Learning</h2>
+                        <p class="leading-relaxed text-base">Current Reviewing Research Topic <br/> UROP(UnderGraduate Research Opportunity Program), SRMAP, 2021.</p>
+                        <a target="__blank" href="https://drive.google.com/file/d/18WtNivnd2xtMIcGsuRBPPYD2TXf_8xB7/view?usp=sharing" class="mt-3 text-indigo-500 inline-flex items-center">View Review Paper
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div style="color: white;" class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2" style="color: white; font-size: x-large;">Using Student Preference Data to predict Online Course.</h2>
+                        <p class="leading-relaxed text-base">The ultimate aim of such predictions is to help students find how well they will do in a particular course before they register in it so as to avoid having to drop out or discontinuity or lacking interest in the middle of the course.</p>
+                        <a target="__blank" href="https://drive.google.com/file/d/1tRX1B015eZZgopPDNIBnyMs2UHKwYJYE/view?usp=sharing" class="mt-3 text-indigo-500 inline-flex items-center">Visit Project Report
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-1000 text-indigo-500 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" viewBox="">
+                            <img alt="team" class="rounded-full" src="./images/slideicon (7).png">
+                        </svg>
+                    </div>
+                </div>
+                <div style="color: white;" class="flex items-center border-b pb-10 mb-10 lg:w-3/5 mx-auto border-gray-200 sm:flex-row flex-col">
+                    <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-1000 text-indigo-500 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" viewBox="">
+                            <img alt="team" class="rounded-full" src="./images/slideicon (2).png">
+                        </svg>
+                    </div>
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2" style="color: white; font-size: x-large;">LPG Alarm Notifier using Arduino.</h2>
+                        <p class="leading-relaxed text-base">Detects LPG using the MQ2 smoke sensor and records those values through the
+laptop and if the gas value is beyond threshold, it immediately generates an alarm
+and warns the locality. All these operations are monitored by the arduino.</p>
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <hr>
+    <div style="margin-top: 10px;" id="contact">
+        <div class="flex flex-col">
+            <h1 style="color: white;text-align: center;margin: 20px;font-size: xx-large;">C O N T A C T</h1>
+        </div>
+        
+        <section class="text-gray-600 body-font relative">
+            <div style="display: flex;justify-content: center;"
+                class="container px-5 py-8 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div
+                    class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <div class="bg-black relative flex flex-wrap rounded shadow-md">
+                        <div class="lg:w-1/2 px-6">
+                            <h2 style="font-size: large;color: rgb(255, 255, 255);font-style:italic;"
+                                class="title-font text-gray-900 tracking-widest text-xs mt-3"> <b>ADDRESS</b></h2>
+                            <p style="color: rgb(255, 255, 255);" class="mt-1"><b>#8-74, Kolli Vaari Street, Rajiv Gandhi Centre, Mangalagir,
+                                Guntur (Dist.), Andhra Pradesh, India <br /> Pincode : 522 503</b></p>
+                        </div>
+                        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                            <h2 style="font-size: large;color: rgb(255, 255, 255);font-style:italic;"
+                                class="title-font text-gray-900 tracking-widest text-xs mt-3"><b>EMAIL</b> </h2>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=smdrayyan111@email.com"
+                                target="__blank" style="text-decoration: none;cursor: pointer;"
+                                class="text-indigo-500 leading-relaxed"><b>vijaysainag.jay@gmail.com</b><br><b>damarla_vijay@srmap.edu.in</b></a>
+                            <h2 style="font-size: large;color: rgb(255, 255, 255);font-style:italic;"
+                                class="title-font text-gray-900 tracking-widest text-xs mt-2"><b>PHONE</b> </h2>
+                            <p class="leading-relaxed mb-2" style="color: rgb(255, 255, 255);"><b>+91 73823 83043<br>+91 86399 13240</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;" class="contactme">
+                V I S I T &nbsp;<i class="fas fa-arrow-right"></i>&ensp;
+                <a id="facebook" href="https://www.facebook.com/vijay.sainag/" class="linkx" target="__blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <button id="whatsapp" class="linkx" onclick='alert("Whatsapp Number : +91 7382383043")'><i
+                        class="fab fa-whatsapp"></i></button>
+                <a id="insta" href="https://www.instagram.com/the_damarla/" class="linkx" target="__blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/vijay-sai-nag-518245164/" class="linkx"
+                    target="__blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </section>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Back to top"><i class="fas fa-arrow-circle-up"></i></button>
+
+    <footer class="text-gray-600 body-font">
+        <div style="color: white;" class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col flex-center" id="thankmsg">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+
+                <span style="color: white;" class="ml-3 text-xl">&nbspThank You For Visiting.</span> 
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwuCGkB3lkBmVnso2OzpLz0HnSKjqCxuj6VU3XDJLygfRViu-CiaUUE_JDm4u4oXd0/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => document.getElementById('mydiv').innerHTML = '<h5>Success!!! I Will Contact You Within A Short Time, Through Your Mail ! </h5>')
+                .catch(error => alert("Something Went Wrong. Please Try Again."))
+        })
+    </script>
+
+    <script>
+        function disable_func() {
+            if (document.forms["google-sheet"]["name"].value != '' && document.forms["google-sheet"]["email"].value != '') {
+                document.getElementById('mydiv').innerHTML = '<h5>Wait !!!</h5>';
+                document.getElementById('submit-btn').disabled = true;
+                document.getElementById('submit-btn').style.background = 'rgb(109, 107, 108)';
+                return true;
+            }
+        }
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+                // $("mySlides")[i].fadeOut("slow")
+            }
+            x[slideIndex - 1].style.display = "block";
+            // $("mySlides")[slideIndex - 1].fadeIn("slow")
+
+        }
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000); // Change image every 2 seconds
+        }
+
+    </script>
+
+</body>
+
+</html>

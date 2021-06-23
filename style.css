@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* background-image: url('./background.png'); */
+    background-color: #030303;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.header-logo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#top-img{
+    width: 33%;
+    margin: 7px;
+}
+.navbar{
+    background-color: rgb(15, 15, 15);
+    height: 4em;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+.links:hover{
+    cursor: pointer;
+    color: rgb(81, 206, 255);
+}
+.home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img{
+    width: 80%;
+}
+.home-para{
+    text-align: justify;
+}
+.home{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.mySlides{
+    width: 85%;
+    margin: 20px;
+}
+.project-btn-round{
+    width: 2%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 12px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background:rgb(0, 0, 0); /* Set a background color */
+    color: rgb(255, 255, 255); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 70%; /* Rounded corners */
+    font-size: larger;
+}
+.linkx {
+    color: rgb(112, 134, 255);
+    text-decoration: none;
+    width: auto;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.linkx:hover {
+    font-size: 20px;
+}
+#facebook:hover{
+    color: blue;
+}
+#whatsapp:hover{
+    color: rgb(0, 160, 0);
+}
+#twitter:hover{
+    columns: blue;
+}
+#insta:hover{
+    color: orange;
+}
+#linkedin:hover{
+    color: blue;
+}
+#myBtn:hover {
+    background-color: rgb(255, 0, 0);
+  }
+#buttonport{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 10px;
+}
+#buttonport:hover{
+    background-color: rgb(30, 65, 238);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-btn{
+    border: 2px solid white;
+    border-radius: 8px;
+    width:fit-content;
+    padding: 3px 8px;
+    margin-left: 10px;
+}
+.home-btn:hover{
+    border: 2px solid gray;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+.home-btn:focus{
+    outline: none;
+}
+.home-btny{
+    border: 2px solid white;
+    border-radius: 8px;
+    width:fit-content;
+    padding: 3px 8px;
+    margin-left: 10px;
+}
+.home-btny:hover{
+    border: 2px solid gray;
+    background-color: white;
+    color: black;
+    outline: none;
+}
+.home-btny:focus{
+    outline: none;
+}
+.home{
+    width: 90%;
+}
+#arshad{
+    color: aqua;
+    transition: all ease-in-out 0.9;
+}
+#arshad:hover{
+    color: rgb(106, 133, 255);
+    text-decoration: underline;
+}
+.home-btnx{
+    display: none;
+}
+.more-info{
+    background-color: rgb(22, 21, 21);
+}
+.more-info:hover{
+    background-color: rgb(24, 0, 158);
+}
+@media only screen and (max-width: 390px) {
+    #top-img{
+        width: auto;
+        height: 60px;
+    }
+    .langscls{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width: 550px) {
+    .home-btn{
+        display: none;
+    }
+    .home-btnx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
